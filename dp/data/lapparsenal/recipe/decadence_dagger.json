@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" bd", " nb", "r  "],
+  "key": {
+    "b": ["minecraft:blaze_powder"],
+    "n": ["minecraft:netherite_ingot"],
+    "r": ["minecraft:blaze_rod"],
+    "d": ["minecraft:diamond"]
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:item_model": "lapparsenal:decadence_dagger",
+      "minecraft:item_name": {
+        "text": "Dagger of Decadence",
+        "type": "text",
+        "color": "red",
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Those pesky arrows the skeleton shoots",
+          "color": "dark_red"
+        },
+        {
+          "text": "are left to be desired...",
+          "color": "dark_red"
+        },
+        "",
+        {
+          "text": "Lappland's Arsenal",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:movement_efficiency",
+          "id": "movement_efficiency",
+          "amount": 0.1,
+          "operation": "add_multiplied_base",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "armor_toughness",
+          "amount": 0.1,
+          "operation": "add_multiplied_base",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:max_damage": 1809
+    },
+    "count": 1
+  }
+}

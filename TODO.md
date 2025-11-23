@@ -1,0 +1,11 @@
+- [v] decadence_sword
+- [v] decadence_dagger
+- [] dominance armor set:
+    - [] dominance_helmet
+    - [] dominance_chestplate
+    - [] dominance_leggings
+    - [] dominance_boots
+- [] bonus effects for complete dominance armor set
+- [] decadence_staff:
+    - [] functions
+    - [] particle effects

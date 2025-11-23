@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" bn", "bnb", "rb "],
+  "key": {
+    "b": ["minecraft:blaze_powder"],
+    "n": ["minecraft:netherite_ingot"],
+    "r": ["minecraft:blaze_rod"]
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_model": "lapparsenal:decadence_sword",
+      "minecraft:item_name": {
+        "text": "Sword of Decadence",
+        "type": "text",
+        "color": "red",
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "The legends of the lone wolf echoes throughout Siracusa...",
+          "color": "dark_red"
+        },
+        {
+          "text": "and she's yearning for blood.",
+          "color": "dark_red"
+        },
+        "",
+        {
+          "text": "Lappland's Arsenal",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 16,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:sweeping_damage_ratio",
+          "id": "sweeping_damage_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "count": 1
+  }
+}
