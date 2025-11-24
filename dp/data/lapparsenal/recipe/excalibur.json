@@ -59,7 +59,11 @@
           "slot": "mainhand"
         }
       ],
-      "minecraft:unbreakable": {}
+      "minecraft:unbreakable": {},
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0,
+        "block_sound": "minecraft:item.shield.block"
+      }
     },
     "count": 1
   }

@@ -1,10 +1,10 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "0": "item/excalibur_ani",
-    "1": "item/effect-sheet",
-    "4": "item/blue_flame",
-    "particle": "item/excalibur_ani"
+    "0": "lapparsenal:item/excalibur_ani",
+    "1": "lapparsenal:item/effect-sheet",
+    "4": "lapparsenal:item/blue_flame",
+    "particle": "lapparsenal:item/excalibur_ani"
   },
   "elements": [
     {
