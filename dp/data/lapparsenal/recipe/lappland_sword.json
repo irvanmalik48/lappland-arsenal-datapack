@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["  b", " bc", "ac "],
+  "key": {
+    "a": ["minecraft:breeze_rod"],
+    "b": ["minecraft:netherite_ingot"],
+    "c": ["minecraft:diamond_block"]
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_model": "lapparsenal:lappland_sword",
+      "minecraft:item_name": {
+        "text": "Spiritual Destruction",
+        "color": "light_purple",
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "If someone's out for revenge on you,",
+          "color": "dark_purple"
+        },
+        {
+          "text": "don't hesitate, just take them out.",
+          "color": "dark_purple"
+        },
+        {
+          "text": "Once you decide to pick up a weapon,",
+          "color": "dark_purple"
+        },
+        {
+          "text": "you don't need a reason to kill.",
+          "color": "dark_purple"
+        },
+        "",
+        {
+          "text": "Lappland's Arsenal",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 12,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:sweeping_damage_ratio",
+          "id": "sweeping_damage_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:movement_efficiency",
+          "id": "movement_efficiency",
+          "amount": 0.1,
+          "operation": "add_multiplied_base",
+          "slot": "offhand"
+        }
+      ],
+      "minecraft:unbreakable": {},
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0,
+        "block_sound": "minecraft:item.shield.block"
+      }
+    },
+    "count": 1
+  }
+}

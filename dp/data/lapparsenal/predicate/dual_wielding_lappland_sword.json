@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:item_model": "lapparsenal:lappland_sword"
+        }
+      },
+      "offhand": {
+        "components": {
+          "minecraft:item_model": "lapparsenal:lappland_sword"
+        }
+      }
+    }
+  }
+}

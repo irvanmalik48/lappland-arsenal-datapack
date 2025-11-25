@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [" bd", " nb", "r  "],
   "key": {
     "b": ["minecraft:blaze_powder"],
