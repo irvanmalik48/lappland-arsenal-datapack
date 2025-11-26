@@ -1,5 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
+  "credits": "This item is part of the Blades of Majestica resource pack made by Eftann.",
   "textures": {
     "0": "lapparsenal:item/decadence_dagger",
     "particle": "lapparsenal:item/decadence_dagger"
