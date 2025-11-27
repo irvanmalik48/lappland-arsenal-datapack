@@ -10,7 +10,7 @@
   "result": {
     "id": "minecraft:netherite_sword",
     "components": {
-      "minecraft:item_model": "lapparsenal:lappland_sword",
+      "minecraft:item_model": "lapparsenal:creation_splitter",
       "minecraft:item_name": {
         "text": "Creation Splitter",
         "color": "red",
