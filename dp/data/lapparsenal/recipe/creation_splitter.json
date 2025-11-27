@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" cb", "cbc", "ac "],
+  "key": {
+    "a": ["minecraft:blaze_rod"],
+    "b": ["minecraft:netherite_block"],
+    "c": ["minecraft:end_crystal"]
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_model": "lapparsenal:lappland_sword",
+      "minecraft:item_name": {
+        "text": "Creation Splitter",
+        "color": "red",
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "The true power lay not in conquering dimensions,",
+          "color": "dark_red"
+        },
+        {
+          "text": "but in manipulating the very fabric of existence itself.",
+          "color": "dark_red"
+        },
+        "",
+        {
+          "text": "Lappland's Arsenal",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 24,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 1.25,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "entity_interaction_range",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:sweeping_damage_ratio",
+          "id": "sweeping_damage_ratio",
+          "amount": 0.5,
+          "operation": "add_multiplied_base",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:unbreakable": {},
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0,
+        "block_sound": "minecraft:item.shield.block"
+      }
+    },
+    "count": 1
+  }
+}

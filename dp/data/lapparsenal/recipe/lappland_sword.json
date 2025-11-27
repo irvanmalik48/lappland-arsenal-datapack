@@ -85,7 +85,7 @@
           "slot": "offhand"
         }
       ],
-      "minecraft:unbreakable": {},
+      "minecraft:max_damage": 6192,
       "minecraft:enchantment_glint_override": false,
       "minecraft:blocks_attacks": {
         "disable_cooldown_scale": 0,

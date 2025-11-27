@@ -3,9 +3,9 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "offhand": {
+      "mainhand": {
         "components": {
-          "minecraft:item_model": "lapparsenal:decadence_dagger"
+          "minecraft:item_model": "lapparsenal:creation_splitter"
         }
       }
     }
